@@ -12,7 +12,7 @@ export class CreateNewThoughtComponent {
     id:'1',
     conteudo: 'Aprender Angular é muito legal!',
     autoria: 'Eu mesmo',
-    modelo: '1'
+    modelo: 'modelo1'
   }
 
   criarPensamento() {
@@ -23,5 +23,5 @@ export class CreateNewThoughtComponent {
   cancelarPensamento() {  
     alert('Operação cancelada!');
   }
-  
+
 }
