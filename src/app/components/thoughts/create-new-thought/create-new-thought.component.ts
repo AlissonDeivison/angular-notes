@@ -1,3 +1,4 @@
+import { preserveWhitespacesDefault } from '@angular/compiler';
 import { Component, model } from '@angular/core';
 
 @Component({
@@ -13,4 +14,14 @@ export class CreateNewThoughtComponent {
     autoria: 'Eu mesmo',
     modelo: '1'
   }
+
+  criarPensamento() {
+    console.log(this.pensamento);
+    alert('Pensamento criado com sucesso!');
+  }
+
+  cancelarPensamento() {  
+    alert('Operação cancelada!');
+  }
+  
 }
