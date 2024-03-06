@@ -1,0 +1,70 @@
+// Variáveis
+$cor-modelo1: #154580;
+$cor-modelo2: #6BD1FF;
+$cor-modelo3: #84EEC1;
+
+// Estilos
+.acoes {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.botao {
+  border: none;
+  cursor: pointer;
+
+  & > .excluir {
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+  & > .editar {
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+}
+
+.pensamento {
+  background-color: #F8F9FE;
+  padding: 1rem;
+  box-sizing: border-box;
+
+  &__conteudo {
+    margin: 1rem auto;
+    word-wrap: break-word;
+  }
+
+  &__autoria {
+    word-wrap: break-word;
+  }
+}
+
+.modelo {
+  &1 {
+    box-shadow: 8px 8px 0px $cor-modelo1;
+  }
+
+  &2 {
+    box-shadow: 8px 8px 0px $cor-modelo2;
+  }
+
+  &3 {
+    box-shadow: 8px 8px 0px $cor-modelo3;
+  }
+}
+
+.pensamento-g {
+  width: 556px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.pensamento-p {
+  width: 262px;
+
+  @media screen and (max-width: 426px) {
+    width: 100%;
+  }
+}
