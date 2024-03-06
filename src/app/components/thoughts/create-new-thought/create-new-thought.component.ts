@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, model } from '@angular/core';
 
 @Component({
   selector: 'app-create-new-thought',
@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class CreateNewThoughtComponent {
 
+  pensamento = {
+    id:'1',
+    conteudo: 'Aprender Angular é muito legal!',
+    autoria: 'Eu mesmo',
+    modelo: '1'
+  }
 }
