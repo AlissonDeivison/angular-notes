@@ -7,21 +7,22 @@ $cor-modelo3: #84EEC1;
 .acoes {
   display: flex;
   justify-content: flex-end;
-}
 
-.botao {
-  border: none;
-  cursor: pointer;
+  button {
+    border: none !important;
+    cursor: pointer;
+    
 
-  & > .excluir {
-    margin-left: 5px;
-    margin-top: 10px;
-  }
-
-  & > .editar {
-    margin-right: 10px;
-    margin-top: 10px;
-  }
+    &.excluir {
+      margin-left: 5px;
+      margin-top: 10px;
+    }
+  
+    &.editar {
+      margin-right: 15px;
+      margin-top: 10px;
+    }
+  } 
 }
 
 .pensamento {
