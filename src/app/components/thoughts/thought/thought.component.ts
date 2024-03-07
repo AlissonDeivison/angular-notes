@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Thought } from '../thought.type';
 
 @Component({
   selector: 'app-thought',
@@ -7,7 +8,8 @@ import { Component, Input } from '@angular/core';
 })
 export class ThoughtComponent {
   //Input decorator to receive the thought object from the parent component. This component calls dumb component, because it doesn't have any complex logic, it just receives data and displays it
-  @Input() thought = {
+  @Input() thought : Thought = {
+    id: 0,
     content: 'You are what you think',
     author: 'Unknown',
     model: 'modelo2'
