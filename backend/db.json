@@ -1,0 +1,59 @@
+{
+  "thoughts": [
+    {
+      "content": "Imagination is more important than knowledge",
+      "author": "Albert Einstein",
+      "model": "modelo3"
+    },
+    {
+        "content": "The only way to do great work is to love what you do",
+        "author": "Steve Jobs",
+        "model": "modelo1"
+    },
+    {
+        "content": "Innovation distinguishes between a leader and a follower",
+        "author": "Steve Jobs",
+        "model": "modelo2"
+    },
+    {
+        "content": "The future belongs to those who believe in the beauty of their dreams",
+        "author": "Eleanor Roosevelt",
+        "model": "modelo3"
+    },
+    {
+        "content": "The best way to predict the future is to create it",
+        "author": "Abraham Lincoln",
+        "model": "modelo1"
+    },
+    {
+        "content": "The only limit to our realization of tomorrow will be our doubts of today",
+        "author": "Franklin D. Roosevelt",
+        "model": "modelo2"
+    },
+    {
+        "content": "The secret of getting ahead is getting started",
+        "author": "Mark Twain",
+        "model": "modelo3"
+    },
+    {
+        "content": "The harder you work for something, the greater you'll feel when you achieve it",
+        "author": "Unknown",
+        "model": "modelo1"
+    },
+    {
+        "content": "Don't watch the clock; do what it does. Keep going",
+        "author": "Sam Levenson",
+        "model": "modelo2"
+    },
+    {
+        "content": "Success usually comes to those who are too busy to be looking for it",
+        "author": "Henry David Thoreau",
+        "model": "modelo3"
+    },
+    {
+        "content": "Don't be afraid to give up the good to go for the great",
+        "author": "John D. Rockefeller",
+        "model": "modelo1"
+    }
+  ]
+}
