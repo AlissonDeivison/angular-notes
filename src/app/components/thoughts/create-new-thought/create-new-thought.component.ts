@@ -1,5 +1,5 @@
-import { preserveWhitespacesDefault } from '@angular/compiler';
-import { Component, model } from '@angular/core';
+import { Component } from '@angular/core';
+import { Thought } from '../thought.type';
 
 @Component({
   selector: 'app-create-new-thought',
@@ -8,15 +8,15 @@ import { Component, model } from '@angular/core';
 })
 export class CreateNewThoughtComponent {
 
-  pensamento = {
-    id:'1',
-    conteudo: 'Aprender Angular é muito legal!',
-    autoria: 'Eu mesmo',
-    modelo: 'modelo1'
+  thought : Thought = {
+    id: 0,
+    content: 'Aprender Angular é muito legal!',
+    author: 'Eu mesmo',
+    model: 'modelo1'
   }
 
   criarPensamento() {
-    console.log(this.pensamento);
+    console.log(this.thought);
     alert('Pensamento criado com sucesso!');
   }
 
