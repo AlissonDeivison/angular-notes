@@ -4,7 +4,8 @@
     <!-- routerLink is a diretive of Angular that allows to navigate to a specific route -->
     <button routerLink="/createNewThought" (click)="createNewThought()" class="botao">Adicionar pensamento</button>
   </header>
-  <div class="mural">
+  <!-- ngIf is a diretive used for to include the if, else logic in a dinamic rendering. The else of this varification is basicaly ng-template. That diretive isn't showed when the logic return false -->
+  <div class="mural" *ngIf="listThoughts.length > 0, else whithoutThoughts">
     <!-- 
         ngFor is a diretive that allows to iterate over a list of items
         let thought of listThoughts is a sintax that allows to iterate over a list of thoughts
@@ -15,3 +16,8 @@
     </div>
   </div>
 </section>
+<ng-template #whithoutThoughts>
+  <div class="ff-inter sem-pensamentos">
+    <p>Ainda não há pensamentos cadastrados</p>
+  </div>
+</ng-template>
