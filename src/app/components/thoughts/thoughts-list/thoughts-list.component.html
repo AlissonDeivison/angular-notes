@@ -1,7 +1,17 @@
 <section class="container">
-    <header class="header d-flex">
-        <h2 class="ff-inter">Meu Mural</h2>
-        <!-- routerLink is a diretive of Angular that allows to navigate to a specific route -->
-        <button routerLink="/createNewThought" (click)="createNewThought()" class="botao">Adicionar pensamento</button>
-    </header>
+  <header class="header d-flex">
+    <h2 class="ff-inter">Meu Mural</h2>
+    <!-- routerLink is a diretive of Angular that allows to navigate to a specific route -->
+    <button routerLink="/createNewThought" (click)="createNewThought()" class="botao">Adicionar pensamento</button>
+  </header>
+  <div class="mural">
+    <!-- 
+        ngFor is a diretive that allows to iterate over a list of items
+        let thought of listThoughts is a sintax that allows to iterate over a list of thoughts
+    -->
+    <div *ngFor="let thought of listThoughts">
+        <!-- We need insert a property binding to allows the objects changes, the extructure is [thought] = "thought" were "thought" is a local variable into the ngFor. In this case we have a dumb compomonent, that is, when we have a component were don't have a complex logic, or when its used just for to recive data from de users or outside -->
+      <app-thought [thought]="thought"></app-thought>
+    </div>
+  </div>
 </section>
