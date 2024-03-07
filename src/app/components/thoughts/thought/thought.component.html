@@ -1,4 +1,5 @@
-<div class="pensamento {{ thought.model }} ff-roboto-mono pensamento-p">
+<!-- ngClass is a directive that includes the logic of dynamic rendering -->
+<div class="pensamento {{ thought.model }} ff-roboto-mono" [ngClass]="larguraPensamento()">
     <!-- Used {{ thought.model }} to interpoling -->
     <img src="../../../../assets/images/{{ thought.model }}.png" alt="Aspas coloridas">
     <p class="conteudo">{{ thought.content }}</p>

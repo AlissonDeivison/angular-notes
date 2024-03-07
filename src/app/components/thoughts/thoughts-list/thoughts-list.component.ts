@@ -14,40 +14,35 @@ export class ThoughtsListComponent {
       model: 'modelo3'
     },
     {
-      content: 'The only way to do great work is to love what you do',
-      author: 'Steve Jobs',
-      model: 'modelo1'
-    },
-    {
-      content: 'Innovation distinguishes between a leader and a follower',
-      author: 'Steve Jobs',
+      content: 'The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.',
+      author: 'Helen Keller',
       model: 'modelo2'
     },
     {
-      content: 'The future belongs to those who believe in the beauty of their dreams',
-      author: 'Eleanor Roosevelt',
+      content: 'I can\'t change the direction of the wind, but I can adjust my sails to always reach my destination.',
+      author: 'Jimmy Dean',
       model: 'modelo3'
     },
     {
-      content: 'The secret of getting ahead is getting started',
-      author: 'Mark Twain',
+      content: 'Believe you can and you\'re halfway there.',
+      author: 'Theodore Roosevelt',
       model: 'modelo1'
     },
     {
-      content: 'Success usually comes to those who are too busy to be looking for it',
-      author: 'Henry David Thoreau',
+      content: 'In three words I can sum up everything I\'ve learned about life: it goes on.',
+      author: 'Robert Frost',
       model: 'modelo2'
     },
     {
-      content: 'The best way to predict the future is to create it',
-      author: 'Abraham Lincoln',
+      content: 'Two things are infinite: the universe and human stupidity; and I\'m not sure about the universe.',
+      author: 'Albert Einstein',
       model: 'modelo3'
     },
     {
-      content: 'Don’t count the days, make the days count',
-      author: 'Muhammad Ali',
+      content: 'Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.',
+      author: 'Steve Jobs',
       model: 'modelo1'
-    },
+    }
   ];
 
   createNewThought() {

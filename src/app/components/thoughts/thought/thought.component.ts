@@ -12,4 +12,11 @@ export class ThoughtComponent {
     author: 'Unknown',
     model: 'modelo2'
   }
+
+  larguraPensamento():String{
+    if(this.thought.content.length >= 100){
+      return 'pensamento-g';
+    }
+    return 'pensamento-p';
+  }
 }
