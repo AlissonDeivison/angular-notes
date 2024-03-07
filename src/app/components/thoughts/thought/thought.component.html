@@ -1,5 +1,14 @@
 <div class="pensamento {{ thought.model }} ff-roboto-mono pensamento-p">
+    <!-- Used {{ thought.model }} to interpoling -->
     <img src="../../../../assets/images/{{ thought.model }}.png" alt="Aspas coloridas">
     <p class="conteudo">{{ thought.content }}</p>
-    <p class="autoria">{{ thought.author }}</p>
+    <p class="autoria"><b>{{ thought.author }}</b></p>
+    <div class="acoes">
+        <button class="editar">
+            <img src="../../../../assets/images/icone-editar.png" alt="Editar">
+        </button>
+        <button class="excluir">
+            <img src="../../../../assets/images/icone-excluir.png" alt="Excluir">
+        </button>
+    </div>
 </div>
