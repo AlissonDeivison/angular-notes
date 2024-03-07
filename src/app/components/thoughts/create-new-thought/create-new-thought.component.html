@@ -35,7 +35,7 @@
         <div class="modelo modelo1 ff-roboto-mono">
             <img src="../../../../assets/images/modelo1.png" alt="Aspas azuis">
             <p class="conteudo">{{ thought.content }}</p>
-            <p class="autoria"><b>{{ thought.content }}</b></p>
+            <p class="autoria"><b>{{ thought.author }}</b></p>
         </div>
       </div>
       <div class="radio-modelo">
@@ -72,7 +72,7 @@
     <div class="acoes">
         <button (click)="criarPensamento()" class="botao">Salvar</button>
         <!-- routerLink is a diretive of Angular that allows to navigate to a specific route -->
-        <button routerLink="/thought-list" (click)="cancelarPensamento()" class="botao">Cancelar</button>
+        <button routerLink="/thought-list"  class="botao">Cancelar</button>
     </div>
   </form>
 </section>
