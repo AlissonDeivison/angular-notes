@@ -1,70 +1,76 @@
 {
-    "thoughts": [
-        {
-            "id": 1,
-            "content": "Imagination is more important than knowledge",
-            "author": "Albert Einstein",
-            "model": "modelo3"
-        },
-        {
-            "id": 2,
-            "content": "The only way to do great work is to love what you do",
-            "author": "Steve Jobs",
-            "model": "modelo1"
-        },
-        {
-            "id": 3,
-            "content": "Innovation distinguishes between a leader and a follower",
-            "author": "Steve Jobs",
-            "model": "modelo2"
-        },
-        {
-            "id": 4,
-            "content": "The future belongs to those who believe in the beauty of their dreams",
-            "author": "Eleanor Roosevelt",
-            "model": "modelo3"
-        },
-        {
-            "id": 5,
-            "content": "The best way to predict the future is to create it",
-            "author": "Abraham Lincoln",
-            "model": "modelo1"
-        },
-        {
-            "id": 6,
-            "content": "The only limit to our realization of tomorrow will be our doubts of today",
-            "author": "Franklin D. Roosevelt",
-            "model": "modelo2"
-        },
-        {
-            "id": 7,
-            "content": "The secret of getting ahead is getting started",
-            "author": "Mark Twain",
-            "model": "modelo3"
-        },
-        {
-            "id": 8,
-            "content": "The harder you work for something, the greater you'll feel when you achieve it",
-            "author": "Unknown",
-            "model": "modelo1"
-        },
-        {
-            "id": 9,
-            "content": "Don't watch the clock; do what it does. Keep going",
-            "author": "Sam Levenson",
-            "model": "modelo2"
-        },
-        {
-            "id": 10,
-            "content": "Success usually comes to those who are too busy to be looking for it",
-            "author": "Henry David Thoreau",
-            "model": "modelo3"
-        },
-        {
-            "id": 11,
-            "content": "Don't be afraid to give up the good to go for the great",
-            "author": "John D. Rockefeller",
-            "model": "modelo1"
-        }
-    ]
+  "thoughts": [
+    {
+      "id": 1,
+      "content": "Imagination is more important than knowledge",
+      "author": "Albert Einstein",
+      "model": "modelo3"
+    },
+    {
+      "id": 2,
+      "content": "The only way to do great work is to love what you do",
+      "author": "Steve Jobs",
+      "model": "modelo1"
+    },
+    {
+      "id": 3,
+      "content": "Innovation distinguishes between a leader and a follower",
+      "author": "Steve Jobs",
+      "model": "modelo2"
+    },
+    {
+      "id": 4,
+      "content": "The future belongs to those who believe in the beauty of their dreams",
+      "author": "Eleanor Roosevelt",
+      "model": "modelo3"
+    },
+    {
+      "id": 5,
+      "content": "The best way to predict the future is to create it",
+      "author": "Abraham Lincoln",
+      "model": "modelo1"
+    },
+    {
+      "id": 6,
+      "content": "The only limit to our realization of tomorrow will be our doubts of today",
+      "author": "Franklin D. Roosevelt",
+      "model": "modelo2"
+    },
+    {
+      "id": 7,
+      "content": "The secret of getting ahead is getting started",
+      "author": "Mark Twain",
+      "model": "modelo3"
+    },
+    {
+      "id": 8,
+      "content": "The harder you work for something, the greater you'll feel when you achieve it",
+      "author": "Unknown",
+      "model": "modelo1"
+    },
+    {
+      "id": 9,
+      "content": "Don't watch the clock; do what it does. Keep going",
+      "author": "Sam Levenson",
+      "model": "modelo2"
+    },
+    {
+      "id": 10,
+      "content": "Success usually comes to those who are too busy to be looking for it",
+      "author": "Henry David Thoreau",
+      "model": "modelo3"
+    },
+    {
+      "id": 11,
+      "content": "Don't be afraid to give up the good to go for the great",
+      "author": "John D. Rockefeller",
+      "model": "modelo1"
+    },
+    {
+      "content": "Angular parece ser mais interessante que React, ele possui uma organização vem melhor e possui funcionalidades que o tornam mais fácil de trabalhar e manter",
+      "author": "Dev",
+      "model": "modelo2",
+      "id": 12
+    }
+  ]
 }
