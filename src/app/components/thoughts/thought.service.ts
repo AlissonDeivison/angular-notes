@@ -19,6 +19,10 @@ export class ThoughtService {
  setThoughts(thought: Thought):Observable<Thought>{
   return this.http.post<Thought>(this.API, thought);
  }
+
+ editThought(thought: Thought):Observable<Thought>{
+  return this.http.put<Thought>(`${this.API}/${thought.id}`, thought);
+ }
  
  deleteThought(id: number):Observable<Thought>{
   return this.http.delete<Thought>(`${this.API}/${id}`);
