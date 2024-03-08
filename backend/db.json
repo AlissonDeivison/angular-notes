@@ -43,28 +43,10 @@
       "model": "modelo3"
     },
     {
-      "id": 8,
-      "content": "The harder you work for something, the greater you'll feel when you achieve it",
-      "author": "Unknown",
-      "model": "modelo1"
-    },
-    {
       "id": 9,
       "content": "Don't watch the clock; do what it does. Keep going",
       "author": "Sam Levenson",
       "model": "modelo2"
-    },
-    {
-      "id": 10,
-      "content": "Success usually comes to those who are too busy to be looking for it",
-      "author": "Henry David Thoreau",
-      "model": "modelo3"
-    },
-    {
-      "id": 11,
-      "content": "Don't be afraid to give up the good to go for the great",
-      "author": "John D. Rockefeller",
-      "model": "modelo1"
     },
     {
       "content": "Angular parece ser mais interessante que React, ele possui uma organização vem melhor e possui funcionalidades que o tornam mais fácil de trabalhar e manter",
