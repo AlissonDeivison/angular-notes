@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { ThoughtsListComponent } from './components/thoughts/thoughts-list/thoughts-list.component';
 import { ThoughtComponent } from './components/thoughts/thought/thought.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DeleteThoughtComponent } from './components/thoughts/delete-thought/delete-thought.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     CreateNewThoughtComponent,
     ThoughtsListComponent,
     ThoughtComponent,
+    DeleteThoughtComponent,
   ],
   imports: [
     BrowserModule,
