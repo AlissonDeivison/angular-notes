@@ -5,7 +5,7 @@
     <p class="conteudo">{{ thought.content }}</p>
     <p class="autoria"><b>{{ thought.author }}</b></p>
     <div class="acoes">
-        <button class="editar">
+        <button class="editar" routerLink="/thought-list/edit-thought/{{thought.id}}">
             <img src="../../../../assets/images/icone-editar.png" alt="Editar">
         </button>
         <button class="excluir" routerLink="/thought-list/delete-thought/{{thought.id}}">
