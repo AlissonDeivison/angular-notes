@@ -47,12 +47,6 @@
       "content": "Don't watch the clock; do what it does. Keep going",
       "author": "Sam Levenson",
       "model": "modelo3"
-    },
-    {
-      "content": "Angular parece ser mais interessante que React, ele possui uma organização vem melhor e possui funcionalidades que o tornam mais fácil de trabalhar e manter",
-      "author": "Dev",
-      "model": "modelo1",
-      "id": 12
     }
   ]
 }
