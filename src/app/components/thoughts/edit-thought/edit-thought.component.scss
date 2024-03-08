@@ -12,7 +12,7 @@
   }
   
   .editar-pensamentos form {
-    background: #C4EDFF;
+    background: #96979721;
   
     border: none;
     border-radius: 20px;
@@ -24,7 +24,7 @@
   }
   
   .editar-pensamentos form label {
-    color: #154580;
+    color: #fafafa;
     font-weight: bold;
     margin: 0 0 1rem;
   }
@@ -100,7 +100,7 @@
   }
   
   .custom-radio {
-    border: 1px solid #154580;
+    border: 1px solid #fafafa;
     width: 30px;
     height: 30px;
     display: grid;
@@ -111,7 +111,7 @@
   .custom-radio,
   span {
     transition: 0.5s ease;
-    color: #154580;
+    color: #fafafa;
   }
   
   .custom-radio span {
@@ -123,9 +123,13 @@
   }
   
   input[type='radio']:checked+.custom-radio {
-    border-color: #154580;
+    border-color: #cc9a11;
   }
   
   input[type='radio']:checked+.custom-radio span {
-    background: #154580;
+    background: #cc9a11;
+  }
+  
+  .preview{
+    color: #fafafa;
   }

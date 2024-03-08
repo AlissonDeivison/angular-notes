@@ -1,79 +1,84 @@
 <section class="container editar-pensamentos ff-inter">
-    <header class="header">
-      <h2>Adicione um <br>pensamento novo</h2>
-    </header>
-    <form>
-      <label for="pensamento">Pensamento</label>
-      <input 
-        type="textarea" 
-        id="pensamento" 
-        class="input" 
-        name="pensamento" 
-        placeholder="Escreva seu pensamento aqui"
-        [(ngModel)]="thought.content" 
-      >
-      <label for="autoria">Autoria ou fonte</label>
-      <input 
-        type="text" 
-        id="autoria" 
-        class="input" 
-        name="autoria" 
-        placeholder="Escreva a autoria ou fonte aqui"
-        [(ngModel)]="thought.author"
-      >
-      <label for="modelo">Seleciona o modelo do card</label>
-      <div class="container-radio">
-        <div class="radio-modelo">
-          <label for="modelo1">
-            <input type="radio" id="modelo1" value="modelo1" name="modelo-card" [(ngModel)]="thought.model" >
-            <div class="custom-radio">
-              <span></span>
-            </div>
-            <span>Modelo 1</span>
-          </label>
-          Prévia:
-          <div class="modelo modelo1 ff-roboto-mono">
-              <img src="../../../../assets/images/modelo1.png" alt="Aspas azuis">
-              <p class="conteudo">{{ thought.content }}</p>
-              <p class="autoria"><b>{{ thought.author }}</b></p>
+  <header class="header">
+    <h2>Add a new <br>thought</h2>
+  </header>
+  <form>
+    <label for="pensamento">Thought</label>
+    <input 
+      type="textarea" 
+      id="pensamento" 
+      class="input" 
+      name="pensamento" 
+      placeholder="Write your thought here"
+      [(ngModel)]="thought.content" 
+    >
+    <label for="autoria">Authorship or source</label>
+    <input 
+      type="text" 
+      id="autoria" 
+      class="input" 
+      name="autoria" 
+      placeholder="Write the authorship or source here"
+      [(ngModel)]="thought.author"
+    >
+    <label for="modelo">Select card model</label>
+    <div class="container-radio">
+      <div class="radio-modelo">
+        <label for="modelo1">
+          <input type="radio" id="modelo1" value="modelo1" name="modelo-card" [(ngModel)]="thought.model" >
+          <div class="custom-radio">
+            <span></span>
           </div>
-        </div>
-        <div class="radio-modelo">
-          <label for="modelo2">
-            <input type="radio" id="modelo2" value="modelo2" name="modelo-card" [(ngModel)]="thought.model">
-            <div class="custom-radio">
-              <span></span>
-            </div>
-            <span>Modelo 2</span>
-          </label>
-          Prévia:
-          <div class="modelo modelo2 ff-roboto-mono">
-              <img src="../../../../assets/images/modelo2.png" alt="Aspas azul claro">
-              <p class="conteudo">{{ thought.content }}</p>
-              <p class="autoria"><b>{{ thought.author }}</b></p>
-          </div>
-        </div>
-        <div class="radio-modelo">
-          <label for="modelo3">
-            <input type="radio" id="modelo3" value="modelo3" name="modelo-card" [(ngModel)]="thought.model">
-            <div class="custom-radio">
-              <span></span>
-            </div>
-            <span>Modelo 3</span>
-          </label>
-          Prévia:
-          <div class="modelo modelo3 ff-roboto-mono">
-              <img src="../../../../assets/images/modelo3.png" alt="Aspas verde">
-              <p class="conteudo">{{ thought.content }}</p>
-              <p class="autoria"><b>{{ thought.author }}</b></p>
-          </div>
+          <span>Model 1</span>
+        </label>
+        <p class="preview">
+          Preview:
+        </p>
+        <div class="modelo modelo1 ff-roboto-mono">
+            <img src="../../../../assets/images/modelo1.png" alt="Blue quotes">
+            <p class="conteudo">{{ thought.content }}</p>
+            <p class="autoria"><b>{{ thought.author }}</b></p>
         </div>
       </div>
-      <div class="acoes">
-          <button (click)="editarPensamento()" class="botao">Salvar</button>
-          <!-- routerLink is a diretive of Angular that allows to navigate to a specific route -->
-          <button (click)="cancelar()" routerLink="/thought-list"  class="botao">Cancelar</button>
+      <div class="radio-modelo">
+        <label for="modelo2">
+          <input type="radio" id="modelo2" value="modelo2" name="modelo-card" [(ngModel)]="thought.model">
+          <div class="custom-radio">
+            <span></span>
+          </div>
+          <span>Model 2</span>
+        </label>
+        <p class="preview">
+          Preview:
+        </p>
+        <div class="modelo modelo2 ff-roboto-mono">
+            <img src="../../../../assets/images/modelo2.png" alt="Light blue quotes">
+            <p class="conteudo">{{ thought.content }}</p>
+            <p class="autoria"><b>{{ thought.author }}</b></p>
+        </div>
       </div>
-    </form>
-  </section>
-  
+      <div class="radio-modelo">
+        <label for="modelo3">
+          <input type="radio" id="modelo3" value="modelo3" name="modelo-card" [(ngModel)]="thought.model">
+          <div class="custom-radio">
+            <span></span>
+          </div>
+          <span>Model 3</span>
+        </label>
+        <p class="preview">
+          Preview:
+        </p>
+        <div class="modelo modelo3 ff-roboto-mono">
+            <img src="../../../../assets/images/modelo3.png" alt="Green quotes">
+            <p class="conteudo">{{ thought.content }}</p>
+            <p class="autoria"><b>{{ thought.author }}</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="acoes">
+        <button (click)="editarPensamento()" class="botao">Save</button>
+        <!-- routerLink is a directive of Angular that allows to navigate to a specific route -->
+        <button (click)="cancelar()" routerLink="/thought-list"  class="botao">Cancel</button>
+    </div>
+  </form>
+</section>

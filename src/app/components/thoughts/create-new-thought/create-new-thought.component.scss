@@ -15,10 +15,10 @@
   padding: 2rem 0;
 
   form {
-    background: #C4EDFF;
+    background: #96979721;
 
     border: none;
-    border-radius: 20px;
+    border-radius: 40px;
 
     display: flex;
     flex-direction: column;
@@ -26,16 +26,16 @@
     padding: 2rem;
 
     label {
-      color: #154580;
-      font-weight: bold;
+      color: #fafafa;
+      font-weight: 400;
       margin: 0 0 1rem;
     }
 
     input {
       border: none;
-      height: 40px;
+      height: 30px;
       padding: 1rem 2rem;
-      border-radius: 20px;
+      border-radius: 0px;
       margin: 0.5rem 0 2rem;
 
       textarea {
@@ -107,7 +107,7 @@ input[type='radio'] {
 }
 
 .custom-radio {
-  border: 1px solid #154580;
+  border: 1px solid #fafafa;
   width: 30px;
   height: 30px;
   display: grid;
@@ -118,7 +118,7 @@ input[type='radio'] {
 .custom-radio,
 span {
   transition: 0.5s ease;
-  color: #154580;
+  color: #fafafa;
 
   span {
     content: '';
@@ -131,9 +131,13 @@ span {
 
 
 input[type='radio']:checked+.custom-radio {
-  border-color: #154580;
+  border-color: #cc9a11;
 }
 
 input[type='radio']:checked+.custom-radio span {
-  background: #154580;
+  background: #cc9a11;
+}
+
+.preview{
+  color: #fafafa;
 }
